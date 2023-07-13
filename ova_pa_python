@@ -1,0 +1,24 @@
+# https://www.programmerapython.se/inspiration/
+# Intro
+print ("IDE = " + "Integrated development enviroment")
+print ("Hello world")
+a = "Programmera Python"
+b = "är kul!"
+print (a, b)
+print ("Programmera Python" "\när kul")
+
+# Utskrifter med indrag (tab)
+a = "Programmera Python"
+b = "är"
+c = "kul!"
+print("\na\t", a, "\nb:\t", b, "\nc:\t", c)
+
+# Datatyper
+# If-satsen
+# Loopar
+# Funktioner
+# Listor
+# Klasser och objekt
+# Skapa ett eget spel
+# Moduler
+# Övningsuppgifter
