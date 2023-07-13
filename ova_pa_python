@@ -13,6 +13,35 @@ b = "är"
 c = "kul!"
 print("\na\t", a, "\nb:\t", b, "\nc:\t", c)
 
+# Skapa placeholders
+a = "Programmera python är {}"
+print(a)
+b = a.format('kul!')
+print(b)
+
+# Se upp för matematiska operatorer!
+# print (1+1) = 2
+# print ("1+1") = 1+1
+
+# Undvik felaktig syntax 
+# Print (Hello World!) = SyntaxError: invalid syntax
+
+# Sammanfattning – Utskrifter i Python
+# Nu har vi lärt oss hur man kan skriva ut text på olika sätt i Python med hjälp av funktionen print().
+
+# Utskrifter i Python sammanfattat:
+print ("\n")
+print("Utskrifter i Python sammanfattat:")
+print ("Funktionen print() skriver ut en text i Python. Allt man anger inom parenteser till funktionen kommer att skrivas ut i terminalfönstret. Det man vill skriva ut anger man med citationstecken " ". Man kan skriva ut värden på variabler genom att ange variabeln i funktionen. En matematisk operation skrivs ut direkt i funktionen. Var försiktig! Man skapar en ny rad med \n. Ett indrag skapas med \t. Formatera en textsträng och skapa en placeholder med måsvingar { }.")
+
+# Syntax
+# Algoritmer: Ge datorn instruktioner att följa
+# Input i Python
+    # Syntax för input
+    # name = input ("Meddelande")
+name = input ("Vad är ditt namn? ")
+print("")
+
 # Datatyper
 # If-satsen
 # Loopar
